@@ -16,8 +16,8 @@
 #define C3_BOUND 32768 // $\gamma_{C_3}$
 #define B22_BOUND 128 // $\gamma_{B_{22}}$
 #define B22inv_BOUND 2048 // $\gamma_{B_{22}^{-1}}$
-#define Y_BOUND 35184372088832LL // $\gamma_{y}$
-#define HASHSECURITY 336 // $d$
+#define Y_BOUND 562949953421312LL // $\gamma_{y}$
+#define HASHSECURITY 560 // $d$
 
 // Calculated from the parameters above to keep as constants
 #define SF 6 // $s!$
@@ -27,6 +27,6 @@
 #define C2_BITS 13 // Computed: $log_2(2*\gamma_{C_2})$
 #define C3_BITS 16 // Computed: $log_2(2*\gamma_{C_3})$
 #define B22inv_BITS 12 // Computed: $log_2(2*\gamma_{B_{22}^{-1}})$
-#define Y_BITS 46 // Computed: $log_2(2*\gamma_{y})$
+#define Y_BITS 50 // Computed: $log_2(2*\gamma_{y})$
 
 #endif

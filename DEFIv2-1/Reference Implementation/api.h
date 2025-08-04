@@ -11,7 +11,7 @@ You are solely responsible for determining the appropriateness of using and dist
 
 #define CRYPTO_SECRETKEYBYTES 426
 #define CRYPTO_PUBLICKEYBYTES 515
-#define CRYPTO_BYTES 483
+#define CRYPTO_BYTES 525
 
 #define CRYPTO_ALGNAME "DEFIv2-1"
 
